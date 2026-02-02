@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Portal o grach komputerowych</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <button id="loginBtn">Zaloguj</button>
+    <span id="welcomeText"></span>
+</header>
+
+<main>
+    <div class="top-bar">
+        <h1>Portal o grach komputerowych</h1>
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Wyszukaj grę..."
+        >
+    </div>
+
+    <table id="gamesTable">
+        <thead>
+            <tr>
+                <th>Okładka</th>
+                <th>Nazwa</th>
+                <th>Krótki opis</th>
+                <th>Rok powstania</th>
+                <th>Ilość kupionych kopii</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</main>
+
+<footer>
+    <p id="quote"></p>
+</footer>
+
+<!-- KOLEJNOŚĆ MA ZNACZENIE -->
+<script src="quotes.js"></script>
+<script src="games.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
